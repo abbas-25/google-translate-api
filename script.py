@@ -1,7 +1,7 @@
 import requests
 
 fromCode = 'en'
-target = 'hi'
+target = 'ar'
 
 originalFileName = 'strings.txt'
 

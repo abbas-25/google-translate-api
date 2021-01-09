@@ -1,12 +1,12 @@
 import requests
 
 fromCode = 'en'
-target = 'ar'
+target = 'pt-BR'
 
 originalFileName = 'strings.txt'
 
 # // constants
-apiKey = ''
+apiKey = 'AIzaSyDZb2COifa-7W3hAfhYhm2wydso-0sIty8'
 baseUri = "https://translation.googleapis.com/language/translate/v2?target=" + \
     target + "&key=" + apiKey
 variableUri = ''
@@ -70,6 +70,7 @@ def translate(variableUri):
     uri = makeUri(variableUri)
     print(uri)
     response = requests.get(uri)
+    print(response)
     data = response.json()['data']['translations']
     for original, translated in zip(originals, data):
         translations.append({

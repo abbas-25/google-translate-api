@@ -1,24 +1,2 @@
-Price
-Remove from Favorites
-Add to Favorites
-Change Language to Hindi
-Change Language to English
-Phone
-Class
-Stream
-School
-Profile
-Go Live
-Teacher Info
-Completed
-Failed
-Take me to Home
-Amount
-Transaction ID
-Payment Success!
-Payment Failed!
-Payment Status
-Pay Amount
-Initializing Payment
-Payment Successful! Taking you to the order confirmation page!
-Payment Failed! Please try again.
+String 1
+String 2

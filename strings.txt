@@ -1,2 +1,3 @@
-String 1
-String 2
+First String to be translated
+How are you? This is the second String
+Third String

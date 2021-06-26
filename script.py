@@ -1,12 +1,15 @@
 import requests
 
+# language you want to translate from
 fromCode = 'en'
-target = 'pt-BR'
+
+# language you want to translate to
+target = 'hi'
 
 originalFileName = 'strings.txt'
 
-# // constants
-apiKey = 'AIzaSyDZb2COifa-7W3hAfhYhm2wydso-0sIty8'
+# Add your API Key string here
+apiKey = ''
 baseUri = "https://translation.googleapis.com/language/translate/v2?target=" + \
     target + "&key=" + apiKey
 variableUri = ''
